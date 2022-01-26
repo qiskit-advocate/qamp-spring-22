@@ -24,16 +24,9 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    attributes:
-      label: Type of participant
-      description: What are the profiles of the ideal participants for this idea?
-    validations:
-      required: true
-
   - type: dropdown
     attributes:
-      label: Number of participants
+      label: Number of mentees
       description: What is the ideal number of people to work on this project?
       options:
         - 1
@@ -41,6 +34,13 @@ body:
         - 3
         - 4
         - 5
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Type of mentees
+      description: What are the profiles of the ideal participants for this idea?
     validations:
       required: true
 
