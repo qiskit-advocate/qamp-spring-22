@@ -10,7 +10,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     attributes:
       label: Mentor/s
       description: Are you able to mentor this project?
@@ -24,10 +24,16 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: dropdown
     attributes:
       label: Number of participants
       description: What is the ideal number of people to work on this project?
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
     validations:
       required: true
 
