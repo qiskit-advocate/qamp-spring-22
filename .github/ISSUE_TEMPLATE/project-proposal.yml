@@ -11,6 +11,10 @@ body:
     attributes:
       label: Description
       description: one or two paragraphs describing the idea. Projects should take approximately 3 months to reasonably complete. The projects will 1) build technical skills, increase our number of core contributors, and work on meaningful projects we want to integrate into Qiskit or maintain; 2) Tackle problems that relate to advancing quantum computing. For example, publishing a quantum computing paper, building a successful local community, or increasing diversity.
+      value: |
+        <!-- example
+        QPong
+        -->
     validations:
       required: true
 
@@ -18,6 +22,9 @@ body:
     attributes:
       label: Deliverables
       description: What's the expected result?
+      value: |
+        <!-- example
+        -->
     validations:
       required: true
 
@@ -27,8 +34,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Mentor details
-      description: Please enter the names, GitHub IDs and what they do in the following format.
+      label: Mentors details
+      description: Please enter mentors' names, GitHub IDs and what they do in the following format.
       value: |
         <!-- example
         - Mentor 1
@@ -72,5 +79,29 @@ body:
     attributes:
       label: Type of mentees
       description: What are the profiles of the ideal participants for this idea?
+      value: |
+        <!-- example
+        - Mentee 1
+          - Required:
+            - Interested in game development
+          - Nice to have:
+            - Experience in game development
+            - Knowledge in quantum information
+        - Mentor 2
+          - Required:
+            - Proficient in Qiskit
+          - Nice to have:
+            - Experience in Qiskit open source contributions
+        -->
+        - Mentor 1
+          - Required:
+            -
+          - Nice to have:
+            -
+        - Mentor 2
+          - Required:
+            -
+          - Nice to have:
+            -
     validations:
       required: true
