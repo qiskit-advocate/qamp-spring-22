@@ -4,35 +4,35 @@ title: ""
 labels: []
 
 body:
-  - type: texarea
+  - type: textarea
     attributes:
       label: Description
       description: one or two paragraphs describing the idea. Projects should take approximately 3 months to reasonably complete. The projects will 1) build technical skills, increase our number of core contributors, and work on meaningful projects we want to integrate into Qiskit or maintain; 2) Tackle problems that relate to advancing quantum computing. For example, publishing a quantum computing paper, building a successful local community, or increasing diversity.
     validations:
       required: true
 
-  - type: texarea
+  - type: textarea
     attributes:
       label: Mentor/s
       description: Are you able to mentor this project?
     validations:
       required: true
 
-  - type: texarea
+  - type: textarea
     attributes:
       label: Type of participant
       description: What are the profiles of the ideal participants for this idea?
     validations:
       required: true
 
-  - type: texarea
+  - type: textarea
     attributes:
       label: Number of participants
       description: What is the ideal number of people to work on this project?
     validations:
       required: true
 
-  - type: texarea
+  - type: textarea
     attributes:
       label: Deliverable
       description: What's the expected result?
