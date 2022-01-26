@@ -95,13 +95,13 @@ body:
         -->
         - Mentor 1
           - Required:
-            -
+            - item 1
           - Nice to have:
-            -
+            - item 1
         - Mentor 2
           - Required:
-            -
+            - item 1
           - Nice to have:
-            -
+            - item 1
     validations:
       required: true
