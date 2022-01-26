@@ -3,6 +3,10 @@ description: Suggest an idea for a project
 labels: []
 
 body:
+  - type: markdown
+    attributes:
+      value: "# Project proposal"
+
   - type: textarea
     attributes:
       label: Description
@@ -10,23 +14,46 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    attributes:
+      label: Deliverables
+      description: What's the expected result?
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: "# Mentors"
 
-  - type: input
+  - type: textarea
     attributes:
-      label: Mentor/s names
-      description: Are you able to mentor this project?
+      label: Mentor details
+      description: Please enter the names, GitHub IDs and what they do in the following format.
+      value: |
+        <!-- example
+        - Mentor 1
+          - Name: Junye Huang
+          - GitHub ID: @HuangJunye
+          - What they do: Quantum Developer Advocate and part of Qiskit advocate squad
+        - Mentor 2
+          - Name: Luciano Bello
+          - GitHub ID:@1ucian0
+          - What they do: Qiskit core developer
+        -->
+        - Mentor 1
+          - Name:
+          - GitHub ID:
+          - What they do:
+        - Mentor 2
+          - Name:
+          - GitHub ID:
+          - What they do:
     validations:
       required: true
 
-  - type: input
+  - type: markdown
     attributes:
-      label: Mentor/s GitHub IDs
-      description: Please enter mentor/s GitHub ID/s with '@'. Seperate with ',' for more than one mentor. (e.g. `@HuangJunye, @javabster`)
-    validations:
-      required: true
+      value: "# Mentees"
 
   - type: dropdown
     attributes:
@@ -45,12 +72,5 @@ body:
     attributes:
       label: Type of mentees
       description: What are the profiles of the ideal participants for this idea?
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Deliverable
-      description: What's the expected result?
     validations:
       required: true
