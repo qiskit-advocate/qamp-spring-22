@@ -18,11 +18,11 @@ body:
       required: true
 
   - type: input
-  attributes:
-    label: Mentor/s GitHub IDs
-    description: Please enter mentor/s GitHub ID/s with '@'. Seperate with ',' for more than one mentor. (e.g. `@HuangJunye, @javabster`)
-  validations:
-    required: true
+    attributes:
+      label: Mentor/s GitHub IDs
+      description: Please enter mentor/s GitHub ID/s with '@'. Seperate with ',' for more than one mentor. (e.g. `@HuangJunye, @javabster`)
+    validations:
+      required: true
 
   - type: textarea
     attributes:
