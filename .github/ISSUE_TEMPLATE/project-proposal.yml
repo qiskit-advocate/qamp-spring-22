@@ -10,9 +10,13 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      values: \# Mentors
+
   - type: input
     attributes:
-      label: Mentor/s
+      label: Mentor/s names
       description: Are you able to mentor this project?
     validations:
       required: true
