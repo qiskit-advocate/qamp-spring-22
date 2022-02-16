@@ -16,7 +16,7 @@ Link to the application form is shared in the `#qiskit-advocates` channel on Qis
 
 # Eligibility
 
-QAMP is an exclusive offering for Qiskit advocates. You need to become a Qiskit advocates to apply for the program. Read [here](ttps://github.com/qiskit-advocate/application-guide) for more information about how to become a Qiskit advocate.
+QAMP is an exclusive offering for Qiskit advocates. You need to become a Qiskit advocates to apply for the program. Read [here](https://github.com/qiskit-advocate/application-guide) for more information about how to become a Qiskit advocate.
 
 # Important dates
 
