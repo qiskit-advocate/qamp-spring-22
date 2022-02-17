@@ -18,8 +18,8 @@ Link to the application form is shared in the `#qiskit-advocates` channel on Qis
 
 *Notes: dates are not finalized and subject to change.*
 
-- Application: Feb 17 - 24
-- Mentor - mentee pairing: Feb 24 - March 8
+- Application: Feb 17 - 28
+- Mentor - mentee pairing: Feb 28 - March 8
 - Kick-off: Mar 10 
 - Checkpoint 1: Apr 7
 - Checkpoint 2: May 5
