@@ -39,8 +39,8 @@ During mentoring period (> 5 hours per week)
 - Discuss with your mentor to refine project details and define deliverables. (during the first 2 weeks)
 - Work on a project with guidance from your mentor. You should dedicate at least 5 hours per week for a meaningful mentorship experience.
 - Meet with your mentor regularly to report progress and get feedbacks. (1 hour call every week).
-- Present project ideas and progress in mid-term review (Oct 7, 2021)
-- Present final outcome in the final showcase (Dec 9, 2021)
+- Present project ideas and progress in the two checkpoints.
+- Present final outcome in the final showcase
 
 ## Frequently Asked Questions
 
